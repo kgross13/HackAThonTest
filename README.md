@@ -12,9 +12,9 @@ It’s probably useful for other reasons, too! <br />
 
 <p>Use <a href="http://course-api.herokuapp.com/csci/">Department</a>, then <a href="http://course-api.herokuapp.com/csci/005/">course ID</a> (optional), then <a href="http://course-api.herokuapp.com/csci/005/01">section ID</a> (even more optional) to narrow selection to specific courses. <br />
 Here's an example: <br />
-’http://course-api.herokuapp.com/dept_name_here/’ <br />
+’http://course-api.herokuapp.com/dept_name_here/ <br />
 or <br />
-’http://course-api.herokuapp.com/<dept>/<course_id>/<sections_id>’</p>
+’http://course-api.herokuapp.com/<dept>/<course_id>/<sections_id> </p>
 
 
 <h2>Basic Unit:</h2>
@@ -22,18 +22,18 @@ or <br />
 <p>The basic unit is “course” which will be listed as “MATH001” with the department listed first and the course number immediately following.</p>
 
 <p>Each course has several attributes including: <br />
-“start” time; <br />
-“end” time; <br />
-“status” (open/closed/ “”); <br />
-“instructor” “Lastname, FirstInitial”; <br />
-“bldg” building abbreviation; <br />
-“campus” PZ/PO/CM/HM/SC; <br />
-“days” MTWRF; <br />
-reg-limit” “OpenSeats / TotalSeats.<br />   
+“start”        time; <br />
+“end”          time; <br />
+“status”       (open/closed/ “”); <br />
+“instructor”   “Lastname, FirstInitial”; <br />
+“bldg”         building abbreviation; <br />
+“campus”       PZ/PO/CM/HM/SC; <br />
+“days”         MTWRF; <br />
+reg-limit”     “OpenSeats / TotalSeats.<br />   
 “title”;      </p>
 
 
-<p>To access this data, call ’course[‘attributeHere’]:’</p>
+<p>To access this data, call ’course[<attributeHere>]:</p>
 
 
 
